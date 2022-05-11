@@ -12,7 +12,7 @@ You should use the table descriptions in the Intercollegiate Database background
 MySQL has the Boolean data type and PostgreSQL has the BIT(1) data type, but I suggest that you use CHAR(1) instead.
 
 
-2. Constraints
+2. Constraints.
 After writing the basic CREATE TABLE statements, you should modify the statements with constraints. The CONSTRAINT clauses can be either inline in a column definition or separate after column definitions except where noted. You should specify a meaningful name for each CONSTRAINT clause.
 •	For each primary key, you should specify a PRIMARY KEY constraint clause. For single column primary keys (CustNo, LocNo, EventNo, PlanNo, EmpNo, ResNo, and FacNo), the constraint clause can be inline or external. For multiple column primary keys (combination of PlanNo and LineNo), the CONSTRAINT clause must be external.
 •	For each foreign key, you should specify a FOREIGN KEY constraint clause. The constraint clauses can be inline or separate.
