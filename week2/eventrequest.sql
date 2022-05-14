@@ -15,4 +15,5 @@ create table EventRequest(
     constraint 	FacilityFKK		foreign key(facNo) references Facility(facNo), 
     check (status in ('Pending', 'Approved', 'Denied'))
     
+	
 );
