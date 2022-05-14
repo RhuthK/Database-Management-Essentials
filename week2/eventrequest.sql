@@ -12,7 +12,7 @@ create table EventRequest(
     
     constraint	EventRequestPK	primary key(eventNo), 
     constraint	CustomerFK		foreign key(custNo) references Customer(custNo), 
-    constraint 	FacilityFk		foreign key(facNo) references Facility(facNo), 
+    constraint 	FacilityFKK		foreign key(facNo) references Facility(facNo), 
     check (status in ('Pending', 'Approved', 'Denied'))
     
 );
