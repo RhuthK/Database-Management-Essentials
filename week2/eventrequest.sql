@@ -6,7 +6,7 @@ create table EventRequest(
     facNo		char(8)		not null, 
     dateAuth	date,
     status		char(20)	not null, 
-    estCost		decimal(10,2)		not null, 
+    estCost		decimal(10,2)   not null, 
     estAudience	integer		not null, 
     budNo		char(20),
     
