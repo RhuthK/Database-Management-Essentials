@@ -1,8 +1,9 @@
+drop table EventPlanLine;
 create table EventPlanLine(
 	planNo 		char(8)  	not null, 
     lineNo		char(8)		not null, 
-    timeStart 	time 		not null, 
-    timeEnd   	time		not null, 
+    timeStart 	timestamp 		not null, 
+    timeEnd   	timestamp		not null, 
     numberFld	integer		not null, 
     locNo		char(8)		not null, 
     resNo		char(8)		not null, 
