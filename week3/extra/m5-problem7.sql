@@ -4,5 +4,5 @@ SET SQL_SAFE_UPDATES = 0;
 UPDATE Product 
 set ProdPrice = ProdPrice * 1.1
 where ProdName like '%Ink Jet%';
-
+SET SQL_SAFE_UPDATES = 1; 
 
