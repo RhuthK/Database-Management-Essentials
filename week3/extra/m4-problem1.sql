@@ -11,5 +11,5 @@ select OrderTbl.ordNo, OrderTbl.ordDate, OrderTbl.OrdState, Customer.custNo,
 from Customer, OrderTbl, Employee
 where Customer.CustNo = OrderTbl.CustNo 
 and OrderTbl.EmpNo = Employee.EmpNo 
-and OrderTbl.OrdState = 'CO' 
+and Customer.CustState = 'CO' 
 and date_format(OrderTbl.OrdDate,'%Y') = '2017' ; 
