@@ -8,4 +8,5 @@ select OrderTbl.OrdNo, OrderTbl.OrdDate, Customer.CustFirstName, Customer.CustLa
  where OrderTbl.OrdNo = OrdLine.OrdNo
  and OrdLine.ProdNo = Product.ProdNo
  and OrderTbl.CustNo = Customer.CustNo
- and OrderTbl.OrdDate = '2017-01-23'; 
+ and OrderTbl.OrdDate = '2017-01-23'
+ group by OrderTbl.OrdNo, OrderTbl.OrdDate, Customer.CustFirstName, Customer.CustLastName;
