@@ -1,7 +1,7 @@
 # Database-Management-Essentials
-Assignments of Coursera Course "Database Management Essentials". The documents contain spelling mistakes. 🤗
-
+Assignments of Coursera Course "Database Management Essentials". 
 Assignments:
+
 Week 1: Introduction to Databases and DBMSs; Nothing to commit
 
 Week 2: Relational Data Model and the CREATE TABLE Statement;
